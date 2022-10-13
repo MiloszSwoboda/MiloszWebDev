@@ -1,0 +1,233 @@
+/*# sourceMappingURL=main.css.map */
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    /* text-align: left; */
+    color: white;
+    /* font-size: 4.5rem; */
+    font-size: clamp(40px, 8vw, 80px);
+    font-weight: 900;
+}
+
+h2,h3{
+    /* color: #dadada; */
+    color: #DFDFDE;
+}
+p{
+    /* text-align: left; */
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+}
+
+button{
+    margin-top: 2rem;
+}
+
+ul span{
+    background-color: white !important;
+}
+
+span{
+    color: white;
+}
+
+                    /* NAVBAR */
+
+
+
+.navigation{
+  position: absolute;
+  top: 0;
+
+}
+.navbar-toggler-icon{
+    background-color: transparent;
+}
+.navbar-brand{
+    margin-left: 5rem;
+    color: white;
+    padding-right: 59vw;
+}
+
+.nav-item{
+    padding: 2rem 2rem;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #DFDFDE;
+}
+                    /* SECTION 1 */
+
+.s1{
+    /* background-image: url("../images/stacked-peaks-haikei.svg");
+    background-size: cover; */
+
+    /* background: linear-gradient(45deg, rgba(88,0,255,1) 0%, rgba(154,0,255,0.8799894957983193) 37%, rgba(0,35,255,1) 100%);  */
+    background: linear-gradient(45deg, rgba(88,0,255,1) 0%, rgba(0,150,255,1) 37%, rgba(0,215,255,1) 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+     background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate; 
+  
+  }
+   @keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+  } 
+
+
+.title{
+    margin-left: 20%;
+    text-align: left;
+}
+
+
+.navbar-brand:hover{
+    color: #DFDFDE;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.about{
+    font-size: 1.2rem;
+    max-width: 40vw;
+    color: #DFDFDE;
+    letter-spacing: normal;
+}
+
+
+
+        /* SECTION 2 */
+.s2{
+    /* background-color: #ED8E8C; */
+    /* background-color: #FF9319; */
+    background-color: #1B2430;
+    text-align: center;
+        
+    
+}
+
+.s2 h3{
+    font-weight: 900;
+    position: relative;
+    bottom: 10rem;
+    color: white;
+
+}
+
+.cards-div{
+    display: flex;
+    justify-content: center
+}
+
+
+.cards-div p{
+    color: gray;
+    letter-spacing: normal;
+}
+
+/* .card{
+    box-shadow: 5px 5px 5px gray;
+    background-color: white;
+    border: none;
+} */
+.card1{
+    margin-right: 5rem;
+}
+
+.card2{
+    margin-right: 5rem;
+}
+
+
+            /* SECTION 3 */
+
+.s3{
+    background-color: #4A12B3;
+    /* text-align: center; */
+    text-align: left;
+    
+}
+
+
+.s3 h3{
+    font-weight: 900;
+    position: relative;
+    color: white;
+    bottom: 8rem;
+    padding-left: 14vw;
+}
+.s3 i{
+    color: white;
+    font-size: 1rem;
+}
+
+.list{
+    color: white;
+    text-align: left;
+    padding-left: 15vw;
+    font-size: 1.2rem;
+    margin-bottom: 7rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.laptop i{
+   font-size: 10rem;
+}
+
+
+            /* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+    .s3{
+        text-align: center;
+    }
+
+    .s3 h3{
+        padding-left: 0;
+    }
+
+    .navbar-brand{
+        padding-right: 45vw;
+    }
+
+  }
+
+  @media screen and (max-width: 1225px){
+    .navbar-brand{
+        padding-right: 40vw;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .card1{
+        margin-right: 0;
+    }
+    
+    .card2{
+        margin-right: 0;
+    }
+
+    .s2 h3{
+
+        bottom: 0rem;
+
+    }
+
+    
+
+  }
+
+
+  @media screen and (max-width: 1025px) {
+    .s3 h3{
+        bottom: 0rem;
+
+    }
+  }
